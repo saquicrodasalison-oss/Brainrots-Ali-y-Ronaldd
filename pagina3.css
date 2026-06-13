@@ -1,0 +1,141 @@
+.bodypag-2{
+    background-image: url(https://th.bing.com/th/id/R.6f5c58cbdb45d470fb21054337bbe0a4?rik=FOeQjC7cl4Tf7Q&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.bloqueprin-{
+    display: flex;
+    gap: 30px; /* Aquí está la separación entre bloques */
+    padding-top: 30px; /* Espacio del título */
+    justify-content: center;
+    flex-wrap: wrap; /* Por si la pantalla es pequeña */
+}
+.bloque-tex{
+    background: linear-gradient(to Right,   rgb(41, 128, 185), rgb(155, 89, 182)); /degrada el color indicando la posición del color (Right o left)/
+    width: 1325px;
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+.parrafoprin-{
+    text-align: center;
+    font-size: large;
+    margin: 20px 20px;
+    padding: 80px 80px 80px 80px;
+}
+
+.titulopag-2{
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+.indicepag-2{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px 20px;
+}
+
+a:hover{
+    color: black;
+}
+
+.bloque1-pag2{
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(246, 178, 107), rgb(211, 84, 0)); /degrada el color indicando la posición del color (Right o left)/
+    width: 300px;
+    height: 600px;
+    border: solid black;
+    cursor: pointer; /Animación del puntero cambia cuando el cursor esta en encima del botón/
+}
+.bloque1-pag2:active{
+    transform: scale(0.5);/*Se realiza cuando apachamos el botón el botón reduce */
+        }
+
+.img1{
+    margin-bottom: 0px;
+    width: 221px;
+    height: 228px;
+}
+
+.bloque2-pag2{
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,  rgb(41, 50, 98), rgb(120, 64, 140), rgb(238, 154, 101), rgb(242, 215, 103)); 
+    width: 300px;
+    height: 600px;
+    border: solid black;
+    cursor: pointer; /Animación del puntero cambia cuando el cursor esta en encima del botón/
+}
+.img2{
+    width: 221px;
+    height: 228px;
+}
+
+.bloque2-pag2:active{
+            transform: scale(0.5);/*Se realiza cuando apachamos el botón el botón reduce */
+        }
+
+.bloque3-pag2{
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(242, 148, 58),  rgb(198, 192, 43),   rgb(123, 140, 28),  rgb(73, 99, 15)); 
+    width: 300px;
+    height: 600px;
+    border: solid black;
+    cursor: pointer; 
+}
+
+.img3{
+    width: 221px;
+    height: 228px;
+}
+
+.bloque3-pag2:active{
+            transform: scale(0.5);/*Se realiza cuando apachamos el botón el botón reduce */
+        }
+
+.bloque4-pag2{
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,  rgb(41, 50, 98),rgb(120, 64, 140),rgb(238, 154, 101),rgb(242, 215, 103)); 
+    width: 300px;
+    height: 600px;
+    border: solid black;
+    cursor: pointer; /Animación del puntero cambia cuando el cursor esta en encima del botón/
+}
+
+.img4{
+    width: 221px;
+    height: 228px;
+}
+
+.bloque4-pag2:active{
+    transform: scale(0.5);/*Se realiza cuando apachamos el botón el botón reduce */
+}
+
+.text4{
+    margin: 20px 20px;
+}
+.text3{
+    margin: 20px 20px;
+}
+.text2{
+    margin: 20px 20px;
+}
+.text1{
+    margin: 20px 20px;
+}
